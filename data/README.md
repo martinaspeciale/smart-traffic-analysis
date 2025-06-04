@@ -1,1 +1,2 @@
-# Data folder\nThis folder contains raw and processed datasets.
+# Data folder
+This folder contains raw and processed datasets
