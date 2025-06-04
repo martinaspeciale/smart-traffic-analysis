@@ -1,1 +1,33 @@
-.venv/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite DBs
+*.db
+
+# Virtual environment
+venv/
+.env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore large dataset files 
+data/raw/PEMS_train*
+data/processed/*
+# Ignore generated SQLite database 
+database/*.db
+
