@@ -13,6 +13,7 @@ def transform_data(df_raw, city='Milano', save_path=None):
         df['street_name'] = df_raw['street_name']
         df['vehicle_count'] = pd.to_numeric(df_raw['vehicle_count'], errors='coerce')
         df['vehicle_type'] = df_raw['vehicle_type']
+        df['city_name'] = city
 
     else:
         raise ValueError(f"🚫 Unsupported city: {city}")
