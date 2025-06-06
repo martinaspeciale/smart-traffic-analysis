@@ -60,8 +60,6 @@ SELECT city_name, COUNT(*) FROM traffic_data GROUP BY city_name;
 ```
 
 ## Project structure
-
-## Project structure
 ```
 - `data/`
     - `raw/`
@@ -81,7 +79,7 @@ SELECT city_name, COUNT(*) FROM traffic_data GROUP BY city_name;
 - `README.md` → project documentation
 ```
 
-## Example visualization (optional)
+## Example visualization
 
 Example Python code to visualize the average vehicle count per city:
 
